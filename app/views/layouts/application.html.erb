@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>AlphaBlog</title>
+    <title>Vegan Stampede</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -9,10 +9,16 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <body class="d-flex flex-column">
     
-    <%= render 'layouts/messages' %>
-    <%= yield %>
+    <%= render 'layouts/navigation' %>
+
+    <div id="page-content">
+      <%= render 'layouts/messages' %>
+      <%= yield %>
+    </div>
+
+    <%= render 'layouts/footer' %>
 
   </body>
 </html>

@@ -1,0 +1,58 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+.navbar {
+    background-color: #000000 !important;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+#logo {
+    float: left;
+    font-size: 1.7em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+  }
+
+  .jumbotron {
+      background-image: asset-url('cows.png');
+      background-color: #ffffff!important; 
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 500px;
+      padding: 120px 90px 64px 90px;
+      z-index: 3;
+      
+  }
+
+  /* Sticky Footer Classes */
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: lightgrey;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  
+  
+}
+
+
+ 
+
+ 
