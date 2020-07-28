@@ -1,5 +1,6 @@
 
 <h1 class="text-center mt-4"><%= @article.title %></h1>
+<h5 class="text-center mt-4">by <%= @article.user.username if @article.user %></h5>
 
 <div class="container">
     <div class="row justify-content-md-center">
