@@ -1,4 +1,24 @@
 
 <h1 class="text-center mt-4 mb-4">Articles</h1>
 
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-8">
+<div class="apple_pagination mb-4">
+    <%= will_paginate @articles, :container => false %>
+</div>
+</div>
+</div>
+</div>
+
 <%= render 'article' %>
+
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-8">
+<div class="apple_pagination mb-4">
+    <%= will_paginate @articles, :container => false %>
+</div>
+</div>
+</div>
+</div>
